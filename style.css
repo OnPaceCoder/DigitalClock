@@ -1,0 +1,53 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body{
+
+    background-image : url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='780' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1008)'%3e%3c/rect%3e%3cpath d='M717.04 589.91C839.85 568.76 899.72 267.25 1095.52 265.54 1291.33 263.83 1374.51 387.2 1474.01 388.74' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M738.2 577.35C852.78 565.06 888.99 339.64 1117.61 315.57 1346.23 291.5 1382.98 69.76 1497.02 57.97' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M298.13 575.54C428.22 563.36 510.65 292.05 736.17 290.48 961.69 288.91 955.19 360.48 1174.21 360.48 1393.23 360.48 1501.35 290.7 1612.25 290.48' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M575.61 579.15C713.33 568.48 786.4 306.34 1049.17 294.51 1311.95 282.68 1396.67 123.62 1522.74 120.91' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M235.17 597.27C422.16 588.86 569.19 271.68 909.21 271.28 1249.23 270.88 1410.86 416.05 1583.25 416.88' stroke='rgba(51%2c121%2c194%2c0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1008'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    
+    /* background-size:100% 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    
+
+
+}
+
+
+.main {
+
+    margin: 0;
+    height: 250px;
+       width: 500px;
+        border: 3px solid rgba(7, 207, 170, 0.93);
+
+    position: absolute  ;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-260px, -120px);
+    align-items: center;
+    text-align: center;
+
+        
+
+
+}
+
+
+.clock{
+    position: absolute;
+    /* bottom: 113px;top: 113px;left: 207px;right: 207px; */
+    font-size: 2.5em;
+    padding: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: aqua;
+    
+}
